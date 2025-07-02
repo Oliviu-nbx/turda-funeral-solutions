@@ -1,6 +1,6 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Truck, FileText, Cross, Candle, Users, Flower } from 'lucide-react';
+import { Truck, FileText, Cross, Flame, Users, Flower } from 'lucide-react';
 
 export const Services = () => {
   const services = [
@@ -21,7 +21,7 @@ export const Services = () => {
       description: "Gamă variată de sicrie și cruci de lemn de calitate superioară."
     },
     {
-      icon: <Candle className="w-8 h-8 text-slate-700" />,
+      icon: <Flame className="w-8 h-8 text-slate-700" />,
       title: "Accesorii Funerare",
       description: "Prosoape, necroloage, lumânări și toate accesoriile necesare ceremoniei."
     },
