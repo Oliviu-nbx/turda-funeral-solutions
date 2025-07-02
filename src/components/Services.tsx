@@ -26,11 +26,6 @@ export const Services = () => {
       description: "Prosoape, necroloage, lumânări și toate accesoriile necesare ceremoniei."
     },
     {
-      icon: <Users className="w-8 h-8 text-slate-700" />,
-      title: "Catafalc și Manipulanți",
-      description: "Servicii complete de catafalc și manipulanți profesioniști."
-    },
-    {
       icon: <Flower className="w-8 h-8 text-slate-700" />,
       title: "Servicii Complementare",
       description: "Colaborare cu gropari, servicii de panificație, catering și aranjamente florale."
