@@ -1,7 +1,5 @@
-
 export const Footer = () => {
-  return (
-    <footer className="bg-slate-900 text-white py-12">
+  return <footer className="bg-slate-900 text-white py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
@@ -29,9 +27,9 @@ export const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Rapid</h4>
             <div className="space-y-2 text-slate-300">
-              <p>📞 <a href="tel:0756689117" className="hover:text-white transition-colors">0756/689117</a></p>
+              
               <p>📍 Turda, Str. Fragariste, Bloc ASPER</p>
-              <p>🕐 Disponibili 24/7</p>
+              <p>🕐 Disponibili 24/7 Telefonic</p>
             </div>
             
             <div className="mt-6">
@@ -53,6 +51,5 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
