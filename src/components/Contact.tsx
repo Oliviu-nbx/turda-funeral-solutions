@@ -1,10 +1,7 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Phone, MapPin, Clock, Mail } from 'lucide-react';
-
 export const Contact = () => {
-  return (
-    <section id="contact" className="py-20 bg-slate-800 text-white">
+  return <section id="contact" className="py-20 bg-slate-800 text-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
@@ -28,9 +25,7 @@ export const Contact = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <a href="tel:0756689117" className="text-xl font-semibold text-slate-100 hover:text-white transition-colors">
-                    0756/689117
-                  </a>
+                  <a href="tel:0756689117" className="text-xl font-semibold text-slate-100 hover:text-white transition-colors">0756689117</a>
                   <p className="text-slate-300 mt-1">Disponibili 24/7 pentru urgențe</p>
                 </CardContent>
               </Card>
@@ -94,12 +89,7 @@ export const Contact = () => {
               <p className="text-slate-300 mb-4">
                 Căutați "BLOC ASPER" pe Google Maps pentru a ne găsi exact.
               </p>
-              <a 
-                href="https://maps.google.com/?q=Bloc+Asper+Turda"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-slate-600 hover:bg-slate-500 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
-              >
+              <a href="https://maps.google.com/?q=Bloc+Asper+Turda" target="_blank" rel="noopener noreferrer" className="inline-block bg-slate-600 hover:bg-slate-500 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
                 Vezi pe Google Maps
               </a>
             </div>
@@ -110,16 +100,12 @@ export const Contact = () => {
                 Pentru situații de urgență, sunați direct la numărul nostru. 
                 Răspundem imediat și venim în cel mai scurt timp posibil.
               </p>
-              <a 
-                href="tel:0756689117"
-                className="inline-block bg-red-600 hover:bg-red-500 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
-              >
+              <a href="tel:0756689117" className="inline-block bg-red-600 hover:bg-red-500 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
                 Apelați Acum: 0756/689117
               </a>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
