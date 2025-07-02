@@ -1,16 +1,13 @@
-
 import { Phone, MapPin, Clock } from 'lucide-react';
-
 export const Header = () => {
-  return (
-    <header className="bg-slate-900 text-white shadow-lg">
+  return <header className="bg-slate-900 text-white shadow-lg">
       {/* Top Contact Bar */}
       <div className="bg-slate-800 py-2">
         <div className="container mx-auto px-4 flex flex-wrap justify-between items-center text-sm">
           <div className="flex items-center space-x-4">
             <div className="flex items-center space-x-1">
               <Phone size={14} />
-              <span>0756/689117</span>
+              <span>0756689117</span>
             </div>
             <div className="flex items-center space-x-1">
               <MapPin size={14} />
@@ -42,6 +39,5 @@ export const Header = () => {
           </nav>
         </div>
       </div>
-    </header>
-  );
+    </header>;
 };
