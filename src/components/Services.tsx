@@ -29,9 +29,7 @@ export const Services = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">
             Servicii Funerare Turda
           </h2>
-          <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Oferim servicii funerare complete în Turda, Câmpia Turzii, Mihai Viteazu, Viișoara și Tureni
-          </p>
+          <p className="text-xl text-slate-600 max-w-3xl mx-auto">Oferim servicii funerare în Turda, Câmpia Turzii, Mihai Viteazu, Viișoara și Tureni</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
