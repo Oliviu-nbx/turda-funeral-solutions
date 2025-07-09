@@ -52,7 +52,7 @@ export const Contact = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-slate-100 font-semibold">24/7 - Toate zilele</p>
+                  <p className="text-slate-100 font-semibold">Luni-Vineri 09-10</p>
                   <p className="text-slate-300">Servicii de urgență disponibile oricând</p>
                 </CardContent>
               </Card>
